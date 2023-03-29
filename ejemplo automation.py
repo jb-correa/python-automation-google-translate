@@ -1,7 +1,7 @@
 import webbrowser
 import requests
 
-
+#Adaptation to hindi characters
 def parse_string(text):
     """Replace the following characters in the text"""
     special_characters = (
@@ -82,6 +82,7 @@ if __name__ == "__main__":
     url = "https://raw.githubusercontent.com/fabricius1/Google-Translate-Automation/master/textToTranslate.txt"
     text_to_translate = url
     
+    #Here we set the languages
     open_google_trans("en", "hi", text_to_translate)
     open_google_trans.__get__()
     
