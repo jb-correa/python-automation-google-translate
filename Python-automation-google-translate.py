@@ -1,6 +1,5 @@
 import webbrowser
 import requests
-
 #Adaptation to hindi characters
 def parse_string(text):
     """Replace the following characters in the text"""
@@ -39,7 +38,6 @@ def parse_string(text):
 
     return text
 
-
 def open_google_trans(source_language="en", target_language="pt", text_to_translate=None):
     """
         Translate the text from the source_language to the target_language, by opening the
@@ -50,7 +48,7 @@ def open_google_trans(source_language="en", target_language="pt", text_to_transl
 
     # exit the function if no text is submitted
     if not text_to_translate:
-        print("No text submitted to translation.\nPlease insert a text.\n")
+        print("No text submited")
         return None
 
     if text_to_translate.startswith("http"):
