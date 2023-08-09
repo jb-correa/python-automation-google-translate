@@ -5,7 +5,7 @@ if __name__ == '__main__':
   import os
   import shutil
   
-  #Important to put the folder to scrap
+  #Dirección de la carpeta a analizar
   current_dir = os.path.dirname("")
   
   for filename in os.listdir(current_dir):
