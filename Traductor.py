@@ -6,6 +6,7 @@ if __name__ == '__main__':
   import shutil
   
   #Dirección de la carpeta a analizar
+  #Recordar descargar la imagen de la página
   current_dir = os.path.dirname("")
   
   for filename in os.listdir(current_dir):
